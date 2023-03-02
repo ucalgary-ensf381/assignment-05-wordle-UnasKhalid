@@ -1,4 +1,30 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  margin-top: auto;
+}
+
+
+.box {
+  border: 2.2px;
+  border-radius: 3.1px;
+  margin: 2.1px;
+  font-size: 2.6rem;
+  font-weight: 690;
+  height: 2.9rem;
+  width: 2.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 2;
+  font-family: Times New Roman, Times, serif !important;
+
 }
